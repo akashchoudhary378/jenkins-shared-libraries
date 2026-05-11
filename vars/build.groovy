@@ -1,5 +1,5 @@
-def call()
+def call(string name , string tag)
 {
   echo "this is building the code"
-  sh "docker build -t notes-app:latest ."
+  sh "docker build -t ${name}:${tag} ."
 }
