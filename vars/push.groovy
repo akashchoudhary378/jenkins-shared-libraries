@@ -1,4 +1,4 @@
-def call( string username , string projectName , string tag )
+def call( String username , String projectName , String tag )
 {
   echo "this is pushing the image in docker hub the code"
                 withCredentials([usernamePassword(
